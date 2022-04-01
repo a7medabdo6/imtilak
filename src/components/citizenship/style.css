@@ -1,0 +1,1158 @@
+.steps-section {
+  padding: 1.3rem;
+  background-color: white !important;
+}
+.color-primary {
+  color: #9c344c;
+}
+.steps-section .contain {
+  width: 70%;
+  margin: auto;
+}
+.steps-section .contain .steps {
+  position: relative;
+  padding: 3rem 0;
+  direction: rtl;
+}
+.steps-section .contain .steps .decor {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  background: #37404d;
+  width: 10px;
+  height: 100%;
+}
+.steps-section .contain .steps .circle-decor.top {
+  top: 0;
+  transform: translate(-50%, -50%);
+}
+.steps-section .contain .steps .circle-decor {
+  position: absolute;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #9c344c;
+}
+.steps-section .contain .steps .circle-decor.bottom {
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
+.steps-section .contain .steps .circle-decor span {
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.steps-section .contain .steps .step {
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.steps-section .contain .steps .step:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.steps-section .contain .steps .step {
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.steps-section .contain .steps .step .numbering {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.steps-section .contain .steps .step .details {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -5px;
+}
+.steps-section .contain .steps .step .numbering > div {
+  background: #37404d;
+  width: 75px;
+  height: 111px;
+  font-size: 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-section .contain .steps .step .numbering > div:before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 55px solid transparent;
+  border-left: 35px solid #37404d;
+  border-bottom: 55px solid transparent;
+  margin-left: -0.03rem;
+}
+.steps-section .contain .steps .step .numbering > div .background-decor {
+  background: url("https://www.imtilak.net/assets/img/turkish-citizenship/step-num-decor.svg")
+    no-repeat center;
+  background-size: cover;
+  position: absolute;
+  top: 3px;
+  left: 1px;
+  width: 110px;
+  height: 108px;
+}
+.steps-section .contain .steps .step .details > div .background-decor {
+  /* background: url("https://www.imtilak.net/assets/img/turkish-citizenship/step-background-decor.svg")
+    no-repeat center;*/
+  background-size: cover;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  left: -60px;
+  width: 528px;
+  height: 254px;
+}
+.steps-section .contain .steps .step .details > div {
+  background: url("https://www.imtilak.net/assets/img/turkish-citizenship/step-background.svg")
+    no-repeat center;
+  background-size: cover;
+  width: 574px;
+  height: 253px;
+  font-size: 1.5rem;
+  padding: 1.2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.steps-section .contain .steps .step .numbering > div {
+  background: #37404d;
+  width: 75px;
+  height: 111px;
+  font-size: 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.steps-section .contain .steps .step .numbering > div:before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 55px solid transparent;
+  border-left: 35px solid #37404d;
+  border-bottom: 55px solid transparent;
+  margin-left: -0.03rem;
+}
+.steps-section .contain .steps .step:nth-child(odd) .numbering span {
+  transform: scale(-1);
+}
+.steps-section .contain .steps .step:nth-child(odd) .numbering {
+  transform: scale(-1);
+}
+.steps-section .contain .steps .step:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.steps-section .contain .steps .step:nth-child(odd) .details span {
+  transform: scale(-1);
+}
+.steps-section .contain .steps .step:nth-child(odd) .details {
+  transform: scale(-1);
+  margin-right: 0;
+  margin-left: -10px;
+}
+.papers-section {
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  margin-top: 150px !important;
+  background: #fff;
+  height: auto;
+  margin-bottom: 8rem !important;
+}
+.papers-section .note-decor {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+.papers-section .background-decor {
+  position: absolute;
+  top: 35px;
+  left: 17px;
+  width: 100%;
+  bottom: -65px;
+  background: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  transform: rotate(3deg);
+  z-index: -1;
+}
+.papers-section > h4 {
+  padding-top: 80px;
+}
+.papers-section .contain {
+  padding: 0 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.papers-section .contain .item {
+  position: relative;
+  width: 300px;
+  padding: 0;
+  margin-bottom: 2.2rem;
+  background: #eff0bf;
+  text-align: center;
+}
+.papers-section .contain .item .head {
+  font-size: 2rem;
+  background: #e7e8a5;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.papers-section .contain .item .body {
+  width: 100%;
+  height: calc(100% - 48px);
+  min-height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+.papers-section .contain .item::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  border-width: 0 0 40px 40px;
+  border-style: solid;
+  border-color: #fff transparent;
+}
+.papers-section .contain .item .body {
+  width: 90%;
+  height: calc(100% - 48px);
+  min-height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+.papers-section .background-decor {
+  position: absolute;
+  top: 35px;
+  left: 17px;
+  width: 100%;
+  bottom: -65px;
+  background: #fff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  transform: rotate(3deg);
+  z-index: -1;
+}
+.page-banner {
+  padding: 1.3rem;
+  padding-top: 3rem;
+  padding-bottom: 170px;
+  margin-bottom: 0 !important;
+}
+
+.section-border {
+  border-radius: 8px;
+  border: 1px solid #c5c5c5;
+  background-color: #fff;
+}
+.page-banner .banner-head {
+  line-height: 1.5;
+  font-size: 2rem;
+  text-align: center;
+}
+.page-banner .info {
+  font-size: 1.3rem;
+}
+.page-banner .banner-decor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(55%, 50%);
+}
+.page-banner .image img {
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.form-contain {
+  width: 90%;
+  margin: auto;
+  z-index: 1;
+  position: relative;
+  transform: translateY(-50%);
+  border-radius: 10px;
+  box-shadow: 0 6px 12px #00000029;
+}
+.form-contain .contact-form {
+  padding: 0 !important;
+}
+
+.contact-form {
+  background: #fff;
+  color: #444c58;
+  border-radius: 8px;
+  border: 1px solid #86263d66;
+}
+.form-contain .contact-form .head,
+.new-turkish-citizenship-page .form-contain .contact-form .title {
+  display: none;
+}
+
+.contact-form .head {
+  font-weight: 700 !important;
+  margin-bottom: 0;
+}
+.form-contain .contact-form .head,
+.new-turkish-citizenship-page .form-contain .contact-form .title {
+  display: none;
+}
+
+.contact-form .title {
+  font-size: 0.9rem;
+  color: #444c58;
+  margin: 0 auto;
+}
+.form-contain .contact-form .form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0 !important;
+  background: #fff;
+  padding: 1.5rem !important;
+}
+.form-contain .contact-form .form-group .custom-input {
+  width: 18%;
+  background: #9c344c;
+  border: 0;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  border-radius: 10px;
+  padding: 0.7rem;
+  font-size: 14px;
+}
+.form-contain .contact-form .form-group .intl-tel-input {
+  width: 18%;
+}
+.flag-container,
+.intl-tel-input.separate-dial-code .flag-container {
+  width: 80px;
+}
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.flex-column {
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+.mb-3,
+.my-3 {
+  margin-bottom: 1rem !important;
+}
+
+.form-contain .contact-form .form-group .form-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 44px;
+  background: #000;
+  font-weight: 700;
+  font-size: 0.75rem;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 0.7rem;
+  border-radius: 14px;
+  margin-top: 0 !important;
+  cursor: pointer;
+}
+.form-contain .contact-form .form-group .custom-input {
+  width: 18%;
+  background: #9c344c;
+  border: 0;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 14px;
+}
+.MuiInputLabel-formControl {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.strength-passport {
+  background: url("https://www.imtilak.net/assets/img/turkish-citizenship/strength-passport-background.png")
+    no-repeat center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 195px;
+}
+.strength-passport {
+  padding-top: 110px;
+  position: relative;
+  padding-bottom: 170px;
+  margin-top: 105px;
+  margin-bottom: 50px;
+}
+.strength-passport .plane-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-50%);
+  max-width: 160px;
+}
+.strength-passport .decor-image {
+  height: 110px;
+}
+.strength-passport .contain {
+  width: 95%;
+}
+
+.strength-passport .contain {
+  width: 90%;
+  margin: auto;
+}
+.strength-passport .contain .description {
+  width: 54%;
+  margin-left: auto;
+}
+.strength-passport .contain .description .title {
+  line-height: 1.5;
+  font-size: 3rem;
+  text-align: center;
+}
+.strength-passport .contain .description .info {
+  font-size: 1.4rem;
+  width: 85%;
+  margin-bottom: 50px;
+}
+
+.new-turkish-citizenship-page .strength-passport .contain .description .info {
+  font-size: 1.3rem;
+  font-weight: 400;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.strength-passport .contain .description .country-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.strength-passport .contain .description .country-section .item {
+  width: 23%;
+}
+
+.strength-passport .contain .description .country-section .item {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.strength-passport .contain .description .country-section .item .name {
+  font-size: 1rem;
+}
+
+.strength-passport .contain .description .country-section .item .name {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.strength-passport .contain .description .country-section .item .box {
+  width: 145px;
+}
+
+.strength-passport .contain .description .country-section .item .box {
+  position: relative;
+  /* width: 155px;*/
+  width: 119px;
+  height: 250px;
+  padding: 1rem;
+  margin-top: auto;
+}
+.strength-passport
+  .contain
+  .description
+  .country-section
+  .item
+  .box
+  .country-contain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.strength-passport
+  .contain
+  .description
+  .country-section
+  .item:nth-child(odd)
+  .box
+  .country-contain
+  img {
+  transform: scale(-1);
+}
+
+.strength-passport
+  .contain
+  .description
+  .country-section
+  .item
+  .box
+  .country-contain
+  img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.strength-passport .contain .description .country-section .item .box .country {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  z-index: 1;
+}
+.strength-passport
+  .contain
+  .description
+  .country-section
+  .item
+  .box
+  .country
+  .country-img {
+  width: 65px;
+}
+
+.strength-passport
+  .contain
+  .description
+  .country-section
+  .item
+  .box
+  .country
+  .country-img {
+  width: 67px;
+  z-index: 1;
+  align-self: flex-start;
+}
+.strength-passport
+  .contain
+  .description
+  .country-section
+  .item
+  .box
+  .country
+  .country-img:nth-child(even) {
+  align-self: flex-end;
+}
+
+@media only screen and (max-width: 991.98px) {
+  .steps-section .contain {
+    width: 90%;
+  }
+  .steps-section .contain .steps {
+    padding: 2rem 0;
+  }
+  .steps-section .contain .steps .decor {
+    width: 5px;
+  }
+  .steps-section .contain .steps .circle-decor {
+    width: 35px;
+    height: 35px;
+  }
+  .steps-section .contain .steps .circle-decor span {
+    width: 13px;
+    height: 13px;
+  }
+  .steps-section .contain .steps .step .numbering {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .steps-section .contain .steps .step .numbering > div {
+    background: #37404d;
+    width: 40px;
+    height: 45px;
+    font-size: 2rem;
+  }
+  .steps-section .contain .steps .step .numbering > div:before {
+    border-top: 23px solid transparent;
+    border-left: 15px solid #37404d;
+    border-bottom: 23px solid transparent;
+  }
+  .steps-section .contain .steps .step .numbering > div .background-decor {
+    background-size: cover;
+    top: 3px;
+    left: 1px;
+    width: 55px;
+    height: 45px;
+  }
+  .steps-section .contain .steps .step .details > div {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .steps-section .contain .steps .step .details > div {
+    background-size: cover;
+    width: 228px;
+    height: 109px;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+  }
+  .steps-section .contain .steps .step .details > div .background-decor {
+    background-size: cover;
+    width: 228px;
+    top: 2px;
+    height: 110px;
+  }
+  .papers-section .contain .item {
+    width: 100%;
+    min-height: 120px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .form-contain .contact-form .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0 !important;
+    background: #fff;
+    padding: 1.5rem !important;
+  }
+  .form-contain .contact-form .form-group .custom-input {
+    width: 90%;
+    background: #9c344c;
+    border: 0;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 14px;
+  }
+  .form-contain .contact-form .form-group .intl-tel-input {
+    width: 96%;
+  }
+}
+
+.react-multi-carousel-list.carousel-container {
+  height: 300px;
+}
+.carouselArticles {
+  height: 500px !important;
+}
+.services-section {
+  padding: 2rem 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.section-border {
+  border-radius: 8px;
+  border: 1px solid #c5c5c5;
+  background-color: #fff;
+}
+.color-primary {
+  color: #9c344c;
+}
+.services-section .contain {
+  width: 82%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services-section .contain .item {
+  width: 32%;
+  margin-bottom: 2.2rem !important;
+  text-align: center;
+}
+.services-section .contain .item .title {
+  width: 225px;
+  border: 1px solid #9c344c;
+  font-size: 1.1rem;
+  line-height: 1.3;
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-section .contain .item .image {
+  margin-left: -2px;
+  background: #fff;
+  height: 60px;
+}
+.services-section .contain .item .image img {
+  max-width: 35px;
+  width: 35px;
+}
+.h3,
+h3 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+@media (max-width: 991.98px) {
+  .services-section .contain {
+    width: 100%;
+    justify-content: center;
+  }
+  .services-section {
+    padding: 1rem;
+  }
+  .services-section .contain .item {
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem !important;
+  }
+  .services-section .contain .item .title {
+    line-height: 1.7;
+  }
+}
+
+.citezinship .react-multi-carousel-list.carousel-container,
+.citezinship .react-multi-carousel-track {
+  height: 1000px;
+}
+.Apartment .react-multi-carousel-list.carousel-container,
+.Apartment .react-multi-carousel-track {
+  height: 568px;
+  padding-top: 68px;
+}
+.info.inner-content {
+  font-size: 1.2rem;
+  position: relative;
+  line-height: 1.6;
+  font-size: 1.2rem !important;
+  font-family: inherit !important;
+}
+.turkish-card {
+  position: relative;
+  overflow: hidden;
+  margin-inline: 10px;
+}
+.turkish-card .card-img {
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: calc(0.25rem - 1px);
+}
+.turkish-card .card-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
+}
+.turkish-card .card-body {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  background: url("https://www.imtilak.net/assets/img/turkish-citizenship/turkish-card-decor1.svg")
+    no-repeat center;
+  background-size: cover;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+.turkish-card .card-body .number {
+  font-size: 0.8rem;
+}
+.turkish-card .card-body .card-title {
+  max-width: 60%;
+}
+
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.card-title {
+  margin-bottom: 0.75rem;
+}
+.turkish-card .card-body .prop-location {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+.turkish-card .card-body .prop-location .location-contain {
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+.turkish-card .card-body .prop-location .location-contain a {
+  color: #fff;
+}
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.turkish-card .card-body .prop-location .price-contain {
+  text-align: center;
+}
+.turkish-card .card-body .prop-location .price-contain .text-muted {
+  font-size: 0.9rem;
+  color: #fff !important;
+}
+.turkish-card .card-body .prop-location .price-contain .price {
+  font-size: 1.5rem;
+}
+
+.mb-2,
+.my-2 {
+  margin-bottom: 0.5rem !important;
+}
+.citizenship-way {
+  background: #fff;
+}
+.citizenship-way .description {
+  font-size: 1.15rem;
+}
+
+.citizenship-way .description {
+  font-size: 1.3rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.citizenship-way .ways-group {
+  border: 1px solid #9c344c;
+  padding-top: 1rem;
+  overflow: hidden;
+}
+.ways-group .head,
+html:lang(fr) .citizenship-way .ways-group .head {
+  width: 48%;
+  font-size: 1.3rem;
+}
+
+.citizenship-way .ways-group .head {
+  width: 35%;
+  margin: auto;
+  background: #fff;
+  font-size: 1.4rem;
+  text-align: center;
+  position: relative;
+}
+.citizenship-way .ways-group .head::before {
+  right: 0;
+  transform: translatex(100%);
+}
+
+.citizenship-way .ways-group .head::after,
+.new-turkish-citizenship-page .citizenship-way .ways-group .head::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 120px;
+  height: 3px;
+  background: #9c344c;
+}
+.citizenship-way .ways-group .head::after {
+  left: 0;
+  transform: translatex(-100%);
+}
+.citizenship-way .ways-group .pointes {
+  display: flex;
+  justify-content: center;
+}
+.citizenship-way .ways-group .pointes span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #9c344c;
+}
+.citizenship-way .ways-group .pointes span:nth-child(2) {
+  margin: 0 1.5rem;
+  background: #37404d;
+}
+.citizenship-way .ways-group .ways {
+  width: 100%;
+}
+.citizenship-way .ways-group .ways .item {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.citizenship-way .ways-group .ways .item .number {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+.citizenship-way .ways-group .ways .item .shape {
+  margin-bottom: -3rem;
+  position: relative;
+  width: 105px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.citizenship-way .ways-group .ways .item .shape svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.citizenship-way .ways-group .ways .item .shape svg .a {
+  fill: #37404d;
+}
+.citizenship-way .ways-group .ways .item .shape i {
+  z-index: 2;
+  font-size: 1.8rem;
+}
+
+.citizenship-way .ways-group .ways .item .decor {
+  width: 100%;
+}
+.citizenship-way .ways-group .ways .item .decor svg {
+  width: calc(100% + 0.06rem);
+  height: auto;
+  margin-bottom: -1px;
+}
+.citizenship-way .ways-group .ways .item .decor svg .c {
+  fill: #9c344c;
+}
+.citizenship-way .ways-group .ways .item .desc {
+  background: #9c344c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 2.5rem;
+  height: calc(100% - 180px);
+  /*width: 100%;*/
+}
+.citizenship-way .ways-group .ways .item .desc .title {
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+.citizenship-way .ways-group .ways .item .desc .info {
+  padding: 1.5rem 0;
+  position: relative;
+}
+.citizenship-way .ways-group .ways .item .desc .info:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 3px;
+  background: #fff;
+}
+.citizenship-way .ways-group .ways .item .decor svg .a {
+  fill: #9c344c;
+}
+.citizenship-way .ways-group .ways .item:nth-child(2) .decor svg .a {
+  fill: #37404d;
+}
+.citizenship-way .ways-group .ways .item:nth-child(2) .desc {
+  background: #37404d;
+}
+.citizenship-way .ways-group .ways .item:nth-child(2) .shape svg .a {
+  fill: #9c344c;
+}
+.citizenship-way .description p:first-child:after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: 3px;
+  width: 55px;
+
+  background: #9c344c;
+}
+
+.citizenship-way .ways-group .head::before {
+  right: 0;
+  transform: translatex(100%);
+}
+.citizenship-way .ways-group .head::after,
+.citizenship-way .ways-group .head::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 120px;
+  height: 3px;
+  background: #9c344c;
+}
+.citizenship-way .description div {
+  line-height: 1.5;
+}
+.mb-4,
+.my-4 {
+  margin-bottom: 1.5rem !important;
+}
+.mt-4,
+.my-4 {
+  margin-top: 1.5rem !important;
+}
+@media (max-width: 991.98px) {
+  .citizenship-way .ways-group .head {
+    width: 60%;
+    font-size: 1.2rem;
+  }
+  .citizenship-way .ways-group .head::after,
+  .citizenship-way .ways-group .head::before {
+    width: 50px;
+    height: 2px;
+  }
+  .citizenship-way .ways-group .pointes span {
+    width: 5px;
+    height: 5px;
+  }
+  .citizenship-way .ways-group .ways .item .number {
+    font-size: 1.3rem;
+  }
+  .citizenship-way .ways-group .ways .item .shape {
+    margin-bottom: -3rem;
+    width: 55%;
+  }
+  .citizenship-way .ways-group .ways .item .desc {
+    height: calc(100% - 100px);
+    padding: 0.5rem;
+  }
+  .citizenship-way .ways-group .ways .item .desc .title {
+    font-size: 1rem;
+  }
+  .citizenship-way .ways-group .ways .item .desc .info {
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  .citizenship-way .ways-group {
+    border: 1px solid #9c344c;
+    padding-top: 1rem;
+    overflow: hidden;
+    margin: 17px;
+  }
+  .citizenship-way .description {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-inline: 15px;
+  }
+  .main-head {
+    font-size: 1.5rem;
+  }
+  .citezinship .carousel-button-group {
+    position: absolute;
+    top: 5px !important;
+    left: 60% !important;
+    display: block !important;
+  }
+  .citezinship .react-multi-carousel-list.carousel-container,
+  .citezinship .react-multi-carousel-track {
+    height: 500px;
+    padding-top: 50px;
+  }
+  svg.MuiSvgIcon-root {
+    width: 25px !important;
+  }
+  .strength-passport .contain {
+    width: 100%;
+  }
+  .strength-passport .contain .description {
+    width: 100%;
+  }
+  .contain .description .title,
+  html:lang(fr) .strength-passport .contain .description .title {
+    font-size: 1.2rem;
+  }
+  .strength-passport .contain .description .info {
+    font-size: 1.1rem;
+    width: 80%;
+    margin-bottom: 30px;
+    margin: auto;
+    text-align: center;
+  }
+  .strength-passport {
+    padding-bottom: 0px !important;
+  }
+  .strength-passport .contain .description .country-section {
+    flex-wrap: wrap;
+    padding: 0 1rem;
+  }
+  .strength-passport .contain .description .country-section .item {
+    width: 48%;
+    margin-bottom: 1.5rem;
+  }
+  .strength-passport .decor-image,
+  .strength-passport .plane-image {
+    display: none;
+  }
+  .strength-passport {
+    background: url("https://www.imtilak.net/assets/img/turkish-citizenship/strength-passport-background-mobile.png")
+      no-repeat top;
+    background-size: cover;
+    padding-top: 100%;
+    padding-bottom: 15px;
+    margin-top: 1.5rem;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
+  }
+  .strength-passport .contain .description .country-section .item .name {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .citezinship .carousel-button-group {
+    position: absolute;
+    top: 5px !important;
+    left: 75% !important;
+    display: block !important;
+  }
+  .papers-section .background-decor {
+    display: none;
+    z-index: -1;
+  }
+}
