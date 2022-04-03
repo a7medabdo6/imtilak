@@ -201,225 +201,299 @@ function Index(props) {
             renderButtonGroupOutside={true}
             customButtonGroup={<ButtonGroup />}
           >
-            <Card
-              className={classes.root}
-              style={{ padding: "0px !important", marginInline: "8px" }}
-            >
-              <CardActionArea
+            <div>
+              <Card
                 className={classes.root}
-                style={{ padding: "0px !important" }}
+                style={{ padding: "0px !important", marginInline: "8px" }}
               >
-                <CardHeader
-                  avatar={
-                    <Avatar aria-label="recipe" className={classes.avatar}>
-                      <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
-                    </Avatar>
-                  }
-                  title="Shrimp and Chorizo Paella"
-                  subheader={
-                    <Typography className={classes.subColor}>
-                      Person role
+                <CardActionArea
+                  className={classes.root}
+                  style={{ padding: "0px !important" }}
+                >
+                  <CardHeader
+                    avatar={
+                      <Avatar aria-label="recipe" className={classes.avatar}>
+                        <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
+                      </Avatar>
+                    }
+                    title="Shrimp and Chorizo Paella"
+                    subheader={
+                      <Typography className={classes.subColor}>
+                        Person role 1
+                      </Typography>
+                    }
+                  />
+                  <CardContent
+                    className=""
+                    style={{ padding: "0px !important" }}
+                  >
+                    <Typography
+                      style={{ marginTop: "0px", marginBottom: "100px" }}
+                      variant="body2"
+                      color=""
+                      component="p"
+                    >
+                      Day After Day And Thanks To Our Competent And Friendly
+                      Staff, The Testimonials Of Our Dear Clients Increase And
+                      Reflect The Exceptional Services Provided By Our Company,
                     </Typography>
-                  }
-                />
-                <CardContent className="" style={{ padding: "0px !important" }}>
-                  <Typography
-                    style={{ marginTop: "0px", marginBottom: "100px" }}
-                    variant="body2"
-                    color=""
-                    component="p"
-                  >
-                    Day After Day And Thanks To Our Competent And Friendly
-                    Staff, The Testimonials Of Our Dear Clients Increase And
-                    Reflect The Exceptional Services Provided By Our Company,
-                  </Typography>
-                  <Typography
-                    style={{}}
-                    variant="p"
-                    component="h2"
-                    className={classes.card}
-                  >
-                    Watch The Video
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+                    <Typography
+                      style={{}}
+                      variant="p"
+                      component="h2"
+                      className={classes.card}
+                    >
+                      Watch The Video
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </div>
 
-            <Card
-              className={classes.root}
-              style={{ padding: "0px !important", marginInline: "8px" }}
-            >
-              <CardActionArea
+            <div>
+              <Card
                 className={classes.root}
-                style={{ padding: "0px !important" }}
+                style={{ padding: "0px !important", marginInline: "8px" }}
               >
-                <CardHeader
-                  avatar={
-                    <Avatar aria-label="recipe" className={classes.avatar}>
-                      <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
-                    </Avatar>
-                  }
-                  title="Shrimp and Chorizo Paella"
-                  subheader={
-                    <Typography className={classes.subColor}>
-                      Person role
+                <CardActionArea
+                  className={classes.root}
+                  style={{ padding: "0px !important" }}
+                >
+                  <CardHeader
+                    avatar={
+                      <Avatar aria-label="recipe" className={classes.avatar}>
+                        <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
+                      </Avatar>
+                    }
+                    title="Shrimp and Chorizo Paella"
+                    subheader={
+                      <Typography className={classes.subColor}>
+                        Person role 2
+                      </Typography>
+                    }
+                  />
+                  <CardContent
+                    className=""
+                    style={{ padding: "0px !important" }}
+                  >
+                    <Typography
+                      style={{ marginTop: "0px", marginBottom: "100px" }}
+                      variant="body2"
+                      color=""
+                      component="p"
+                    >
+                      Day After Day And Thanks To Our Competent And Friendly
+                      Staff, The Testimonials Of Our Dear Clients Increase And
+                      Reflect The Exceptional Services Provided By Our Company,
                     </Typography>
-                  }
-                />
-                <CardContent className="" style={{ padding: "0px !important" }}>
-                  <Typography
-                    style={{ marginTop: "0px", marginBottom: "100px" }}
-                    variant="body2"
-                    color=""
-                    component="p"
-                  >
-                    Day After Day And Thanks To Our Competent And Friendly
-                    Staff, The Testimonials Of Our Dear Clients Increase And
-                    Reflect The Exceptional Services Provided By Our Company,
-                  </Typography>
-                  <Typography
-                    style={{}}
-                    variant="p"
-                    component="h2"
-                    className={classes.card}
-                  >
-                    Watch The Video
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+                    <Typography
+                      style={{}}
+                      variant="p"
+                      component="h2"
+                      className={classes.card}
+                    >
+                      Watch The Video
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </div>
 
-            <Card
-              className={classes.root}
-              style={{ padding: "0px !important", marginInline: "8px" }}
-            >
-              <CardActionArea
+            <div>
+              <Card
                 className={classes.root}
-                style={{ padding: "0px !important" }}
+                style={{ padding: "0px !important", marginInline: "8px" }}
               >
-                <CardHeader
-                  avatar={
-                    <Avatar aria-label="recipe" className={classes.avatar}>
-                      <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
-                    </Avatar>
-                  }
-                  title="Shrimp and Chorizo Paella"
-                  subheader={
-                    <Typography className={classes.subColor}>
-                      Person role
+                <CardActionArea
+                  className={classes.root}
+                  style={{ padding: "0px !important" }}
+                >
+                  <CardHeader
+                    avatar={
+                      <Avatar aria-label="recipe" className={classes.avatar}>
+                        <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
+                      </Avatar>
+                    }
+                    title="Shrimp and Chorizo Paella"
+                    subheader={
+                      <Typography className={classes.subColor}>
+                        Person role 3
+                      </Typography>
+                    }
+                  />
+                  <CardContent
+                    className=""
+                    style={{ padding: "0px !important" }}
+                  >
+                    <Typography
+                      style={{ marginTop: "0px", marginBottom: "100px" }}
+                      variant="body2"
+                      color=""
+                      component="p"
+                    >
+                      Day After Day And Thanks To Our Competent And Friendly
+                      Staff, The Testimonials Of Our Dear Clients Increase And
+                      Reflect The Exceptional Services Provided By Our Company,
                     </Typography>
-                  }
-                />
-                <CardContent className="" style={{ padding: "0px !important" }}>
-                  <Typography
-                    style={{ marginTop: "0px", marginBottom: "100px" }}
-                    variant="body2"
-                    color=""
-                    component="p"
-                  >
-                    Day After Day And Thanks To Our Competent And Friendly
-                    Staff, The Testimonials Of Our Dear Clients Increase And
-                    Reflect The Exceptional Services Provided By Our Company,
-                  </Typography>
-                  <Typography
-                    style={{}}
-                    variant="p"
-                    component="h2"
-                    className={classes.card}
-                  >
-                    Watch The Video
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+                    <Typography
+                      style={{}}
+                      variant="p"
+                      component="h2"
+                      className={classes.card}
+                    >
+                      Watch The Video
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </div>
 
-            <Card
-              className={classes.root}
-              style={{ padding: "0px !important", marginInline: "8px" }}
-            >
-              <CardActionArea
+            <div>
+              <Card
                 className={classes.root}
-                style={{ padding: "0px !important" }}
+                style={{ padding: "0px !important", marginInline: "8px" }}
               >
-                <CardHeader
-                  avatar={
-                    <Avatar aria-label="recipe" className={classes.avatar}>
-                      <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
-                    </Avatar>
-                  }
-                  title="Shrimp and Chorizo Paella"
-                  subheader={
-                    <Typography className={classes.subColor}>
-                      Person role
+                <CardActionArea
+                  className={classes.root}
+                  style={{ padding: "0px !important" }}
+                >
+                  <CardHeader
+                    avatar={
+                      <Avatar aria-label="recipe" className={classes.avatar}>
+                        <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
+                      </Avatar>
+                    }
+                    title="Shrimp and Chorizo Paella"
+                    subheader={
+                      <Typography className={classes.subColor}>
+                        Person role 4
+                      </Typography>
+                    }
+                  />
+                  <CardContent
+                    className=""
+                    style={{ padding: "0px !important" }}
+                  >
+                    <Typography
+                      style={{ marginTop: "0px", marginBottom: "100px" }}
+                      variant="body2"
+                      color=""
+                      component="p"
+                    >
+                      Day After Day And Thanks To Our Competent And Friendly
+                      Staff, The Testimonials Of Our Dear Clients Increase And
+                      Reflect The Exceptional Services Provided By Our Company,
                     </Typography>
-                  }
-                />
-                <CardContent className="" style={{ padding: "0px !important" }}>
-                  <Typography
-                    style={{ marginTop: "0px", marginBottom: "100px" }}
-                    variant="body2"
-                    color=""
-                    component="p"
-                  >
-                    Day After Day And Thanks To Our Competent And Friendly
-                    Staff, The Testimonials Of Our Dear Clients Increase And
-                    Reflect The Exceptional Services Provided By Our Company,
-                  </Typography>
-                  <Typography
-                    style={{}}
-                    variant="p"
-                    component="h2"
-                    className={classes.card}
-                  >
-                    Watch The Video
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+                    <Typography
+                      style={{}}
+                      variant="p"
+                      component="h2"
+                      className={classes.card}
+                    >
+                      Watch The Video
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </div>
 
-            <Card
-              className={classes.root}
-              style={{ padding: "0px !important", marginInline: "8px" }}
-            >
-              <CardActionArea
+            <div>
+              <Card
                 className={classes.root}
-                style={{ padding: "0px !important" }}
+                style={{ padding: "0px !important", marginInline: "8px" }}
               >
-                <CardHeader
-                  avatar={
-                    <Avatar aria-label="recipe" className={classes.avatar}>
-                      <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
-                    </Avatar>
-                  }
-                  title="Shrimp and Chorizo Paella"
-                  subheader={
-                    <Typography className={classes.subColor}>
-                      Person role
+                <CardActionArea
+                  className={classes.root}
+                  style={{ padding: "0px !important" }}
+                >
+                  <CardHeader
+                    avatar={
+                      <Avatar aria-label="recipe" className={classes.avatar}>
+                        <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
+                      </Avatar>
+                    }
+                    title="Shrimp and Chorizo Paella"
+                    subheader={
+                      <Typography className={classes.subColor}>
+                        Person role 5
+                      </Typography>
+                    }
+                  />
+                  <CardContent
+                    className=""
+                    style={{ padding: "0px !important" }}
+                  >
+                    <Typography
+                      style={{ marginTop: "0px", marginBottom: "100px" }}
+                      variant="body2"
+                      color=""
+                      component="p"
+                    >
+                      Day After Day And Thanks To Our Competent And Friendly
+                      Staff, The Testimonials Of Our Dear Clients Increase And
+                      Reflect The Exceptional Services Provided By Our Company,
                     </Typography>
-                  }
-                />
-                <CardContent className="" style={{ padding: "0px !important" }}>
-                  <Typography
-                    style={{ marginTop: "0px", marginBottom: "100px" }}
-                    variant="body2"
-                    color=""
-                    component="p"
+                    <Typography
+                      style={{}}
+                      variant="p"
+                      component="h2"
+                      className={classes.card}
+                    >
+                      Watch The Video
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </div>
+
+            <div>
+              <Card
+                className={classes.root}
+                style={{ padding: "0px !important", marginInline: "8px" }}
+              >
+                <CardActionArea
+                  className={classes.root}
+                  style={{ padding: "0px !important" }}
+                >
+                  <CardHeader
+                    avatar={
+                      <Avatar aria-label="recipe" className={classes.avatar}>
+                        <img src="https://www.imtilak.net/image/45/45/testimonials/77c190c49a58e89622784240c34d94ce28X598.png" />
+                      </Avatar>
+                    }
+                    title="Shrimp and Chorizo Paella"
+                    subheader={
+                      <Typography className={classes.subColor}>
+                        Person role 6
+                      </Typography>
+                    }
+                  />
+                  <CardContent
+                    className=""
+                    style={{ padding: "0px !important" }}
                   >
-                    Day After Day And Thanks To Our Competent And Friendly
-                    Staff, The Testimonials Of Our Dear Clients Increase And
-                    Reflect The Exceptional Services Provided By Our Company,
-                  </Typography>
-                  <Typography
-                    style={{}}
-                    variant="p"
-                    component="h2"
-                    className={classes.card}
-                  >
-                    Watch The Video
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+                    <Typography
+                      style={{ marginTop: "0px", marginBottom: "100px" }}
+                      variant="body2"
+                      color=""
+                      component="p"
+                    >
+                      Day After Day And Thanks To Our Competent And Friendly
+                      Staff, The Testimonials Of Our Dear Clients Increase And
+                      Reflect The Exceptional Services Provided By Our Company,
+                    </Typography>
+                    <Typography
+                      style={{}}
+                      variant="p"
+                      component="h2"
+                      className={classes.card}
+                    >
+                      Watch The Video
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </div>
           </Carousel>
         </div>
       </Container>

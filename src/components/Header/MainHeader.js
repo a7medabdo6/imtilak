@@ -77,6 +77,8 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: `calc(1em + ${theme.spacing(3)}px)`,
     transition: theme.transitions.create("width"),
     width: "10vw",
+    borderradius: "2px",
+    border: "1px solid #80808045",
   },
   sectionDesktop: {
     display: "none",

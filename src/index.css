@@ -283,3 +283,11 @@ ul.list-unstyled li {
     stroke-dasharray: 8;
   }
 }
+.menuu ul {
+  flex-wrap: wrap;
+  display: flex;
+}
+.menuu ul li {
+  width: 25%;
+  display: inline-block;
+}

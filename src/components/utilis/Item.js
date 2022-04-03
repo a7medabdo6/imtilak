@@ -15,6 +15,10 @@ import Box from "@material-ui/core/Box";
 const StyledMenu = withStyles({
   paper: {
     border: "1px solid #d3d4d5",
+    width: "70%",
+    left: "15% !important",
+    color: "#5f6670",
+    background: "#f2f2f2",
   },
 })((props) => (
   <Menu
@@ -35,9 +39,9 @@ const StyledMenu = withStyles({
 const StyledMenuItem = withStyles((theme) => ({
   root: {
     "&:focus": {
-      backgroundColor: theme.palette.primary.main,
+      backgroundColor: "transparent",
       "& .MuiListItemIcon-root, & .MuiListItemText-primary": {
-        color: theme.palette.common.white,
+        //color: theme.palette.common.white,
       },
     },
   },
@@ -70,26 +74,114 @@ export default function CustomizedMenus({ title }) {
         id="customized-menu"
         anchorEl={anchorEl}
         keepMounted
+        className="menuu"
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
         <StyledMenuItem>
-          <ListItemIcon>
-            <SendIcon fontSize="small" />
-          </ListItemIcon>
+          <ListItemText
+            color="primary"
+            style={{ color: "#9c344c" }}
+            primary="Sent mail"
+          />
+
+          <ListItemText primary="Sent mail" />
+
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
           <ListItemText primary="Sent mail" />
         </StyledMenuItem>
         <StyledMenuItem>
-          <ListItemIcon>
-            <DraftsIcon fontSize="small" />
-          </ListItemIcon>
-          <ListItemText primary="Drafts" />
-        </StyledMenuItem>
+          <ListItemText
+            color="primary"
+            style={{ color: "#9c344c" }}
+            primary="Sent mail"
+          />
+
+          <ListItemText primary="Sent mail" />
+
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+        </StyledMenuItem>{" "}
         <StyledMenuItem>
-          <ListItemIcon>
-            <InboxIcon fontSize="small" />
-          </ListItemIcon>
-          <ListItemText primary="Inbox" />
+          <ListItemText
+            color="primary"
+            style={{ color: "#9c344c" }}
+            primary="Sent mail"
+          />
+
+          <ListItemText primary="Sent mail" />
+
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+        </StyledMenuItem>{" "}
+        <StyledMenuItem>
+          <ListItemText
+            color="primary"
+            style={{ color: "#9c344c" }}
+            primary="Sent mail"
+          />
+
+          <ListItemText primary="Sent mail" />
+
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+        </StyledMenuItem>{" "}
+        <StyledMenuItem>
+          <ListItemText
+            color="primary"
+            style={{ color: "#9c344c" }}
+            primary="Sent mail"
+          />
+
+          <ListItemText primary="Sent mail" />
+
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+        </StyledMenuItem>{" "}
+        <StyledMenuItem>
+          <ListItemText
+            color="primary"
+            style={{ color: "#9c344c" }}
+            primary="Sent mail"
+          />
+
+          <ListItemText primary="Sent mail" />
+
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+        </StyledMenuItem>{" "}
+        <StyledMenuItem>
+          <ListItemText
+            color="primary"
+            style={{ color: "#9c344c" }}
+            primary="Sent mail"
+          />
+
+          <ListItemText primary="Sent mail" />
+
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
+          <ListItemText primary="Sent mail" />
         </StyledMenuItem>
       </StyledMenu>
     </div>

@@ -6,7 +6,7 @@ import Card from "@material-ui/core/Card";
 import { useTheme } from "@material-ui/core/styles";
 import useMediaQuery from "@material-ui/core/useMediaQuery";
 import { Link } from "react-router-dom";
-
+import ModalCom from "./Modal";
 const useStyles = makeStyles((theme) => ({
   boxImage: {
     backgroundImage: "url('https://www.imtilak.net/assets/img/channel.jpg')",
@@ -94,87 +94,19 @@ function Index(props) {
               >
                 <Grid item xs={12} md={12} style={{ display: "flex" }}>
                   <Grid item xs={6} md={6} style={{ margin: "0px 37px" }}>
-                    <Link to="/channels">
-                      <Box style={{ width: "100%" }}>
-                        <img
-                          alt="img"
-                          style={{
-                            width: "100%",
-                            height: "110px",
-                            borderRadius: "10px",
-                          }}
-                          src="https://i.ytimg.com/vi/zYDcpdCHxAM/hqdefault.jpg"
-                        />
-                      </Box>
-                      <Typography
-                        style={{ width: "100%", margin: "10px 10px" }}
-                      >
-                        Apartments For Sale In The Luxurious NISHANTASHI |
-                        Carlton Project In Istanbul
-                      </Typography>
-                    </Link>
+                    <ModalCom />
                   </Grid>
                   <Grid item xs={6} md={6} tyle={{ margin: "0px 37px" }}>
-                    <Link to="/channels">
-                      <Box style={{ width: "100%" }}>
-                        <img
-                          alt="img"
-                          style={{
-                            width: "100%",
-                            height: "110px",
-                            borderRadius: "10px",
-                          }}
-                          src="https://i.ytimg.com/vi/zYDcpdCHxAM/hqdefault.jpg"
-                        />
-                      </Box>
-                      <Typography style={{ width: "100%", margin: "10px 1px" }}>
-                        Apartments For Sale In The Luxurious NISHANTASHI |
-                        Carlton Project In Istanbul
-                      </Typography>
-                    </Link>
+                    <ModalCom />
                   </Grid>
                 </Grid>
 
                 <Grid item xs={12} md={12} style={{ display: "flex" }}>
                   <Grid item xs={6} md={6} style={{ margin: "0px 37px" }}>
-                    <Link to="/channels">
-                      <Box style={{ width: "100%" }}>
-                        <img
-                          alt="img"
-                          style={{
-                            width: "100%",
-                            height: "110px",
-                            borderRadius: "10px",
-                          }}
-                          src="https://i.ytimg.com/vi/zYDcpdCHxAM/hqdefault.jpg"
-                        />
-                      </Box>
-                      <Typography
-                        style={{ width: "100%", margin: "10px 10px" }}
-                      >
-                        Apartments For Sale In The Luxurious NISHANTASHI |
-                        Carlton Project In Istanbul
-                      </Typography>
-                    </Link>
+                    <ModalCom />
                   </Grid>
                   <Grid item xs={6} md={6} tyle={{ margin: "0px 37px" }}>
-                    <Link to="/channels">
-                      <Box style={{ width: "100%" }}>
-                        <img
-                          alt="img"
-                          style={{
-                            width: "100%",
-                            height: "110px",
-                            borderRadius: "10px",
-                          }}
-                          src="https://i.ytimg.com/vi/zYDcpdCHxAM/hqdefault.jpg"
-                        />
-                      </Box>
-                      <Typography style={{ width: "100%", margin: "10px 1px" }}>
-                        Apartments For Sale In The Luxurious NISHANTASHI |
-                        Carlton Project In Istanbul
-                      </Typography>
-                    </Link>
+                    <ModalCom />
                   </Grid>
                 </Grid>
               </Grid>
@@ -203,25 +135,8 @@ function Index(props) {
                     gap: "15px",
                   }}
                 >
-                  <Link to="/channels">
-                    <Grid item xs={6} md={6}>
-                      <Box style={{ width: "100%" }}>
-                        <img
-                          alt="img"
-                          style={{
-                            width: "100%",
-                            height: "110px",
-                            borderRadius: "10px",
-                          }}
-                          src="https://i.ytimg.com/vi/zYDcpdCHxAM/hqdefault.jpg"
-                        />
-                      </Box>
-                      <Typography style={{ width: "100%" }}>
-                        Apartments For Sale In The Luxurious NISHANTASHI |
-                        Carlton Project In Istanbul
-                      </Typography>
-                    </Grid>
-                  </Link>
+                  <ModalCom />
+
                   <Link to="/channels">
                     <Grid item xs={6} md={6}>
                       <Box style={{ width: "100%" }}>
@@ -252,42 +167,12 @@ function Index(props) {
                 >
                   <Link to="/channels">
                     <Grid item xs={6} md={6}>
-                      <Box style={{ width: "100%" }}>
-                        <img
-                          alt="img"
-                          style={{
-                            width: "100%",
-                            height: "110px",
-                            borderRadius: "10px",
-                          }}
-                          src="https://i.ytimg.com/vi/zYDcpdCHxAM/hqdefault.jpg"
-                        />
-                      </Box>
-                      <Typography
-                        style={{ width: "100%", margin: "10px 10px" }}
-                      >
-                        Apartments For Sale In The Luxurious NISHANTASHI |
-                        Carlton Project In Istanbul
-                      </Typography>
+                      <ModalCom />
                     </Grid>
                   </Link>
                   <Link to="/channels">
                     <Grid item xs={6} md={6}>
-                      <Box style={{ width: "100%" }}>
-                        <img
-                          alt="img"
-                          style={{
-                            width: "100%",
-                            height: "110px",
-                            borderRadius: "10px",
-                          }}
-                          src="https://i.ytimg.com/vi/zYDcpdCHxAM/hqdefault.jpg"
-                        />
-                      </Box>
-                      <Typography style={{ width: "100%" }}>
-                        Apartments For Sale In The Luxurious NISHANTASHI |
-                        Carlton Project In Istanbul
-                      </Typography>
+                      <ModalCom />
                     </Grid>
                   </Link>
                 </Grid>
