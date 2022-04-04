@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Link, Typography } from "@material-ui/core";
+import { Box, Container, Link, Typography, Button } from "@material-ui/core";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -9,12 +9,29 @@ import LocationOnIcon from "@material-ui/icons/LocationOn";
 import HomeIcon from "@material-ui/icons/Home";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
   },
   media: {
     height: 170,
+  },
+  btn: {
+    textAlign: "center",
+
+    backgroundColor: "inherit",
+    color: theme.palette.primary.main,
+    width: "350px",
+    fontSize: "16px",
+    fontWeight: "bold",
+    padding: "15px",
+    marginBottom: "15px",
+    "&:hover": {
+      backgroundColor: theme.palette.primary.main,
+      color: "white",
+      border: "1px solid #9c344c",
+      transition: "all .3s ease",
+    },
   },
   arrow: {
     filter: "unset",
@@ -34,7 +51,7 @@ const useStyles = makeStyles({
     display: "flex",
     justifyContent: "center",
   },
-});
+}));
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -388,6 +405,11 @@ function Slider() {
               </a>
             </div>
           </Carousel>
+        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <Button variant="contained" className={classes.btn} onClick="">
+            View all featured projects
+          </Button>
         </div>
       </Box>
     </div>

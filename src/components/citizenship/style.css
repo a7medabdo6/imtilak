@@ -1156,3 +1156,15 @@ html:lang(fr) .citizenship-way .ways-group .head {
     z-index: -1;
   }
 }
+
+.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+  position: relative;
+  vertical-align: inherit;
+  /* padding-bottom: 5px; */
+  text-align: left;
+  width: 50px !important;
+  height: 90%;
+}
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+  height: 48px !important;
+}

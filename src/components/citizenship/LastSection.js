@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import {
   Box,
@@ -13,6 +13,7 @@ import Collapse from "../Collapsed/Colapse";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import Card from "@material-ui/core/Card";
+import ReactFlagsSelect from "react-flags-select";
 
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
@@ -173,6 +174,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function LastSection() {
+  const [selected, setSelected] = useState("");
+
   const classes = useStyles();
   const [age, setAge] = React.useState("");
 
@@ -234,21 +237,22 @@ function LastSection() {
               />
 
               <FormControl className={classes.formControl}>
-                <Select
+                <ReactFlagsSelect
                   labelId="demo-simple-select-label"
                   id="demo-simple-select"
                   value={age}
                   style={{ width: "50px" }}
                   className={classes.marginTop}
-                  onChange={handleChange}
-                >
-                  <MenuItem value={10}>egypt</MenuItem>
-                  <MenuItem value={20}>egypt</MenuItem>
-                  <MenuItem value={30}>Thirty</MenuItem>
-                </Select>
+                  selected={selected}
+                  placeholder=" "
+                  showSelectedLabel={false}
+                  showOptionLabel={false}
+                  onSelect={(code) => setSelected(code)}
+                />
                 <TextField
                   id="standard-basic"
                   label="Standard"
+                  style={{ marginInline: "5px" }}
                   className={classes.marginTop}
                 />
               </FormControl>
